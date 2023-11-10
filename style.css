@@ -1,0 +1,181 @@
+/* Reset some default styles to ensure consistency across browsers */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a background for the body */
+body {
+  background-color: #f5e9c0;
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+}
+
+/* Style the header section */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+  border-bottom: 2px solid #fff; /* Add a border at the bottom */
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.5em; /* Increase font size */
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  border-bottom: 2px solid transparent; /* Add a transparent border initially */
+  transition: border-bottom 0.3s ease; /* Add a smooth transition for the border */
+}
+
+/* Change border color on hover */
+nav a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+/* Style the main content section */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the welcome section */
+#home {
+  margin-bottom: 30px;
+}
+
+#home h2 {
+  color: #333;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Add a text shadow */
+}
+
+#home p {
+  color: #666;
+}
+
+/* Style the menu section */
+#menu h2 {
+  color: #333;
+  margin-bottom: 20px; /* Add margin at the bottom of the heading for spacing */
+}
+
+article {
+  margin-bottom: 30px;
+  border: 1px solid #ddd; /* Add a border around articles */
+  border-radius: 4px;
+  padding: 15px;
+  background-color: #f9f9f9; /* Add a background color */
+}
+
+article h3 {
+  color: #333;
+  margin-bottom: 10px; /* Add margin at the bottom of the heading for spacing */
+}
+
+article p {
+  color: #666;
+  margin-bottom: 15px; /* Add margin at the bottom of the paragraph for spacing */
+}
+
+ul {
+  list-style-type: none;
+  margin-bottom: 15px; /* Add margin at the bottom of the list for spacing */
+}
+
+li {
+  margin-bottom: 5px; /* Add margin at the bottom of each list item for spacing */
+}
+
+/* Style the menu item images */
+figure {
+  text-align: center;
+}
+
+figure img {
+  width: 500px; /* Set a fixed width for consistency */
+  height: 500px; /* Set a fixed height for consistency */
+  object-fit: cover; /* Ensure the image covers the specified dimensions */
+  border-radius: 8px; /* border-radius for rounded corners */
+}
+
+/* Style the reviews section */
+#reviews h2 {
+  color: #333;
+}
+
+blockquote {
+  font-style: italic;
+  color: #666;
+  border-left: 4px solid #333; /* Add a border to the left of the blockquote */
+  padding-left: 15px;
+}
+
+cite {
+  display: block;
+  margin-top: 10px;
+  color: #333;
+}
+
+/* Style the contact section */
+#contact h2 {
+  color: #333;
+}
+
+address ul {
+  list-style-type: none;
+}
+
+address li {
+  margin-bottom: 10px;
+}
+
+/* Style the footer section */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+  border-top: 2px solid #fff; /* Add a border at the top */
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Style the social media links */
+nav ul {
+  padding-top: 10px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
